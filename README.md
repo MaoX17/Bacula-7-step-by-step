@@ -251,3 +251,19 @@ Open your web browser and go to the address below
 
 for i in `ls /etc/init.d/bacula-*`; do $i $1; done
 
+
+
+## Errori risolti
+
+In caso di errore:
+
+Please mount Volume "xxx" or label a new one for:
+
+anche se ho un nastro ripulito seguire la seguente procedura:
+
+bconsole:
+
+* delete volume="xxx"
+
+* label barcodes slots=22 pool=Default
+
